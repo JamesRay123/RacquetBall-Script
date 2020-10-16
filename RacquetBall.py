@@ -21,10 +21,10 @@ def getinputs():
 	    print("Error: Must enter a number for input.")
 	    getinputs()
 	return Pa,Pb,n
-def RBallsim(probA,probB,n):
+def RBallsim(Pa,Pb,n):
     #assume Player A always serves first
     from random import random
-    Pa,Pb=probA,probB
+    #Pa,Pb=probA,probB
     winsA=winsB=0
     for i in range(n):
         serve="A"
