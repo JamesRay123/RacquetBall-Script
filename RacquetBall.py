@@ -1,7 +1,7 @@
 def RaquetBall():
 	probA,probB,n=getinputs()
 	winsA,winsB=RBallsim(probA,probB,n)
-	print(winsA,winsB)
+	PrintFinal(winsA,winsB)
 
 def getinputs():
 	try:
